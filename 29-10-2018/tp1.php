@@ -3,6 +3,7 @@
 $source_html = "source.html";
 echo get_body($source_html);
 
+//extraction du body en texte
 function get_body($source_html){
 
     $chaine_html=implode(file($source_html)," ");
